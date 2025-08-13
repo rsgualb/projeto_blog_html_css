@@ -1,4 +1,4 @@
-/* Geral */
+/* GERAL */
 * {
     padding: 0;
     margin: 0;
@@ -19,7 +19,7 @@ a:hover {
     color: #37a1f7;
 }
 
-/* Navbar */
+/* NAVBAR */
 #navbar {
     padding: 1.5rem 2.5rem;
     border-bottom: 2px solid #ddd;
@@ -38,7 +38,7 @@ a:hover {
     gap: 1rem;
 }
 
-/* Conteúdo principal */
+/* CONTEÚDO PRINCIPAL */
 .container {
     display: flex;
     gap: 3rem;
@@ -75,7 +75,7 @@ a:hover {
     font-weight: bold;
 }
 
-/* Barra lateral */
+/* BARRA LATERAL */
 #sidebar {
     flex: 1 1 0;
 }
@@ -127,7 +127,7 @@ a:hover {
     border-radius: 0.3rem;
 }
 
-/* Rodapé (Footer) */
+/* RODAPÉ(FOOTER) */
 #footer {
     border-top: 2px solid #ddd;
     padding: 3rem;
@@ -139,9 +139,10 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-/* Responsivo */
+/* RESPONSIVIDADE */
 @media (max-width: 450px) {
     .container {
         flex-wrap: wrap;
     }
+
 }
